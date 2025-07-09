@@ -1,0 +1,6 @@
+@AlloPharma.Api_HostAddress = http://localhost:5062
+
+GET {{AlloPharma.Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

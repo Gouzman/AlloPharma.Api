@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "M1AwLmtTntU=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\GOUZMAN\\Documents\\TOUS MES PROJETS\\AlloPharma.Api\\AlloPharma.Api\\AlloPharma.Api.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\GOUZMAN\\.nuget\\packages\\microsoft.aspnetcore.openapi\\9.0.6\\microsoft.aspnetcore.openapi.9.0.6.nupkg.sha512",
+    "C:\\Users\\GOUZMAN\\.nuget\\packages\\microsoft.openapi\\1.6.17\\microsoft.openapi.1.6.17.nupkg.sha512"
+  ],
+  "logs": []
+}
