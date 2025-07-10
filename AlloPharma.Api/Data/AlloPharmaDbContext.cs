@@ -10,19 +10,25 @@ namespace AlloPharma.Api.Data
 {
     public class AlloPharmaDbContext : DbContext
     {
+        // Constructeur requis pour l'injection de dépendances.
+        // Il reçoit les options (comme la chaîne de connexion) depuis Program.cs
+        // et les passe à la classe de base DbContext.
         public AlloPharmaDbContext(DbContextOptions<AlloPharmaDbContext> options) : base(options)
         {
         }
 
         public DbSet<Pharmacy> Pharmacies { get; set; }
-        // Ajoutez ici d'autres DbSet pour les Clients, Medicaments, etc. dans les futurs sprints
+        public DbSet<Medicament> Medicaments { get; set; }
+        public DbSet<Demande> Demandes { get; set; }
+        public DbSet<DemandeItem> DemandeItems { get; set; }
+
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            // Indique à PostgreSQL d'utiliser l'extension PostGIS pour les fonctions géospatiales
-            modelBuilder.HasPostgresExtension("postgis");
+            base.OnModelCreating(modelBuilder); // Important d'appeler la méthode de base
 
-            // S'assurer que le numéro de téléphone est unique dans la base de données
+            // Configuration pour PostGIS et l'unicité du téléphone
+            modelBuilder.HasPostgresExtension("postgis");
             modelBuilder.Entity<Pharmacy>()
                 .HasIndex(p => p.Telephone)
                 .IsUnique();

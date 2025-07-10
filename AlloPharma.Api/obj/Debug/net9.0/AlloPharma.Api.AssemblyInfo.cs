@@ -10,10 +10,11 @@
 using System;
 using System.Reflection;
 
+[assembly: Microsoft.Extensions.Configuration.UserSecrets.UserSecretsIdAttribute("8b4e0706-e292-4750-8b65-8014939b02dd")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("AlloPharma.Api")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ef71e97c189653a3498b17c591ec8db89b8c912a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+582225fd54d510adf8e26225546ef887ff0f0b55")]
 [assembly: System.Reflection.AssemblyProductAttribute("AlloPharma.Api")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AlloPharma.Api")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
