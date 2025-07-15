@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AlloPharma.Api")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+582225fd54d510adf8e26225546ef887ff0f0b55")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b51106a9a8656a019ba13cfe9977d90023f33a0d")]
 [assembly: System.Reflection.AssemblyProductAttribute("AlloPharma.Api")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AlloPharma.Api")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
